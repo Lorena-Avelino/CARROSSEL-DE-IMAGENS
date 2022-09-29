@@ -1,0 +1,110 @@
+.container {
+    background: url('../images/imagem1.png') center center no-repeat;
+    max-width: 1920px;
+    min-height: 100vh;
+    display: none;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container.visivel {
+    display: flex;
+}
+
+.btn {
+    width: 49px;
+    height: 78px;
+    border: none;
+    cursor: pointer;
+    margin: auto 0;
+    opacity: 50%;
+}
+
+.btn:hover:enabled{
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+.btn.btn-esquerda {
+    background: url('../images/seta-esquerda.png') center center no-repeat;
+    align-self: center;
+    margin-left: 70px;
+}
+
+.btn.btn-direita {
+    background: url('../images/seta-direita.png') center center no-repeat;
+    align-self: center;
+    margin-right: 70px;
+}
+
+.informacao {
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 620px;
+    max-height: 700px;
+    padding: 65px 60px;
+    margin: auto 180px;
+    position: absolute;
+    align-self: center;
+}
+
+.informacao h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+.informacao p {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.informacao a{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.informacao a:hover {
+    color: #C50000;
+    transition: 0.3s;
+}
+
+@media (max-width: 700px){
+    .informacao {
+        position: relative;
+        justify-content: center;
+        margin: auto 0;
+        padding: 35px 30px;
+    }
+
+    .informacao h1{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .informacao p {
+        font-size: 16px;
+        margin-bottom: 30px;
+        line-height: 20px;
+    }
+
+    .informação a {
+        font-size: 16px;
+    }
+
+    .btn {
+        width: 100vh;
+        height: 100vh;
+        margin: 15px;
+    }
+
+    .btn.btn-direita{
+        margin-right: 20px;
+    }
+
+    .btn.btn.btn-esquerda{
+        margin-left: 20px;
+    }
+}

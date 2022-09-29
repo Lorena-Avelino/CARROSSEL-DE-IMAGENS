@@ -34,6 +34,8 @@ addEventListener()
 ![](src/images/Slider.gif)
 <br>
 
+[GitHub Pages](https://lorena-avelino.github.io/CARROSSEL-DE-IMAGENS/)
+
 ## Tecnologias Utilizadas
 <br>
 
